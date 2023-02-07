@@ -1,0 +1,18 @@
+start
+step1:read the given numbers
+step2:while(n!=)
+      {
+       i=n%10
+       if(i%2==0);
+         {
+           s=10+i
+          }
+       }
+step3:display s;
+step4:display s1;
+stop
+
+      
+      
+
+

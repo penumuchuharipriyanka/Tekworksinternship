@@ -1,0 +1,35 @@
+start
+step1:read principle amount,rate amd time
+step3:caluclate instrest using formula S.I=((PTR)/100)
+step4:print simple interest
+stop
+
+
+
+start
+step1:read any month number mn
+step2:if(mn==1)
+        print("jan")
+      elseif(mn==2)
+        print("feb")
+      elseif(mn==3)
+        print("mar")
+      elseif(mn==4)
+         print("apr")
+      elseif(mn==5)
+          print("may")
+      elseif(mn==6)
+          print("jun")
+      elseif(mn==7)
+           print("jul")
+      elseif(mn==8)
+           print("aug")
+      elseif(mn==9)
+            print("sept")
+      elseif(mn==10)
+             print("oct")
+      elseif(mn==11)
+              print("nov")
+      elseif(mn==12)
+               print("dec")
+step4:end
