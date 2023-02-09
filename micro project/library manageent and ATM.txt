@@ -1,0 +1,83 @@
+//Library management system
+start
+step1:read s_name,s_roll,s_ID
+step2:if(s_name,s_roll,s_ID are valid)
+      {
+        enter book name;
+        enter book author;
+        enter date;
+        
+      }
+     else
+      {
+       display"person"is invalid
+       }
+step3:if(student wants to return book)
+       {
+        check book name,book author,validity;
+         if(return date is greater than 3 days)
+           {
+            student should pay fine
+           }
+        else
+           
+           {
+            accept the book
+           }
+step4:Display thank you
+stop
+
+....................................................
+
+
+//ATM transaction
+start
+step1:insert the ATM card
+step2:card holder details will be shown
+step3:if the details are correct then user need to press enter
+step4:options will be given like
+       *cash withdrawl
+       *cash deposit
+       *mini statement
+step5:if(user select cash withdrawl)
+        { 
+         please select the language
+         *hindi
+         *english
+         *telugu
+         please select account type
+         *savings account
+         *currect account
+         please the valid pin number
+          if("pin number is correct")
+           {
+            please enter the amount(n<=0)
+            collect the money 
+            remove the card
+           }
+         else
+           {
+           if("pin number is wrong")
+           }
+         }
+step6:if("user select cash depoist")
+        {
+         please select the language
+          *hindi
+          *English 
+          *telugu
+         please enter the amount needs to depoist
+         please enter how many 100rs,500rs,2000rs are getting depoist
+         please enter the valid pin number
+          if("pin number is correct")
+            {
+              keep the cash into the machine
+              machine will check whether all the notes are clear or not
+              if the notes are clear the machine will take them otherwise machine will send back the unclear notes back
+            }
+          else
+            {
+             if("pin number is wrong")
+            }
+        }
+stop
