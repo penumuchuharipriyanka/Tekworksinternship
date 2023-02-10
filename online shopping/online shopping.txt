@@ -1,0 +1,44 @@
+//online shopping
+A.order processing
+start
+step1:select the online shopping applicaton
+step2:if("already have an account")
+       {
+        display"menu"
+        *men wear
+        *women wear
+        *kids wear
+        *kitchen accessories    
+        *decorities
+        select the category we want to shop
+        select the item we want to buy
+        add to cart
+        click buy now
+        enter address and customer details
+        payment method
+        if(online payment)
+         {
+          select upi payment
+          enter upi id
+          payment will send to customers upi application
+          select pay and enter pin number
+          payment successful
+          order placed
+         }
+       if("cash on delivery")
+          {
+           select COD method
+           order placed
+          }
+       }
+step3:if("not having an account")
+        {
+         create an account
+         enter customer details
+         enter customer email address
+         create a password
+         account created
+        }
+step4:stop
+          
+        

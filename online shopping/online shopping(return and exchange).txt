@@ -1,0 +1,55 @@
+//online shopping
+B.returns and exchanges
+start
+step1:select the application where customer wants to return or exchange
+step2:if("prouduct needs to return")
+       {
+        display"menu"
+         *mens wear
+         *womens wear
+         *kids wear
+         *kitchen accessories
+         *decoratives
+         *wishlist
+         *orders
+        select the option order 
+        select the product customer wants to return
+        display "order details"
+        select the option return
+        select the reason for return
+         *quality is not good
+         *dont need this product anymore
+         *order place by mistake
+        post the pics of the product
+        return placed
+       }
+step3:if("product needs to exchange")
+        {  
+         select the option exchange
+         select the product customer wants to buy in exchange
+         if("the selected product is more cost than the exchange product")
+            select payment method
+            if("online payment")
+             {
+                select upi payment
+                enter upi id
+                payment will send to customers upi application
+                select pay and enter pin number
+                payment successful
+                exchange request is successful
+             }
+            if("cash on delivery")
+              {
+                select COD method
+                exchange successful
+              }
+          if("no need of extra payment")
+             {
+              enter the product into the exchange list
+              exchange successful
+             }
+step4:stop
+        
+             
+      
+      
